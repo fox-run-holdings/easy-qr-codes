@@ -6,11 +6,14 @@
 	 * Author: Ken Schnetz, Fox Run Holdings LLC
 	 */
 	
+	// TODO: Add ability to edit the target URL for a QR code.
+	// TODO: Break the methods out into separate files.
+	
 	if (!defined('ABSPATH')) {
 		exit; // Exit if accessed directly.
 	}
 
-// Register activation hook to create or update the database table.
+	// Register activation hook to create or update the database table.
 	register_activation_hook(__FILE__, 'qr_code_generator_create_table');
 	
 	function qr_code_generator_create_table() {
