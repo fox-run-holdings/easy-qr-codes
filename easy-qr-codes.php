@@ -2,7 +2,7 @@
     /**
      * Plugin Name: Easy QR Codes
      * Description: Generates QR codes for any URL, tracks usage, allows editing, and redirects QR code scans through the site.
-     * Version: 1.3
+     * Version: 1.4
      * Author: Ken Schnetz, Fox Run Holdings LLC
      */
     
