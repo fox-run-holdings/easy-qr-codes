@@ -135,7 +135,7 @@
             'manage_options',
             'qr-code-generator',
             'qr_code_generator_page',
-            'dashicons-qrcode',
+            'dashicons-screenoptions',
             20
         );
     }
